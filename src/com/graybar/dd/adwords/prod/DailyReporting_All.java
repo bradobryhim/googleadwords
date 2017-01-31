@@ -44,13 +44,9 @@ public class DailyReporting_All {
 	 * Days 8-EoM:
 	 * 		Download & overwrite the current-month-to-date CSV file for each report
 	 */
-	
-//	This path is for for Sandbox01
-//	public static final String LZ_PATH = "hdfs://cslhdpsbx01.graybar.com/data_LZ/api_integration/google_adwords/";
-//	This path is for Azure Cluster:
-//	public static final String LZ_PATH = "hdfs://cplhdpmp01.graybar.com/data_LZ/Digital_Business/API_Integration/Google_AdWords/";
-//  This path for on-prem:
-	public static final String LZ_PATH = "hdfs://splhdpmp01.graybar.com/data_LZ/Digital_Business/API_Integration/Google_AdWords/";
+
+//  Example path for Github:
+	public static final String LZ_PATH = "hdfs://myserver.com/data_LZ/Digital_Business/API_Integration/Google_AdWords/";
 	
 	public static void main(String[] args) throws Exception {
 		

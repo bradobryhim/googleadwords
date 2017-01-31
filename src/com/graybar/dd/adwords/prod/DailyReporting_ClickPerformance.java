@@ -32,12 +32,8 @@ import com.google.common.collect.Lists;
 
 public class DailyReporting_ClickPerformance {
 	
-//	This path is for for Sandbox01
-//	public static final String LZ_PATH = "hdfs://cslhdpsbx01.graybar.com/data_LZ/api_integration/google_adwords/CLICK_PERFORMANCE_REPORT/";
-//	This path is for Azure Cluster:
-//	public static final String LZ_PATH = "hdfs://cplhdpmp01.graybar.com/data_LZ/Digital_Business/API_Integration/Google_AdWords/CLICK_PERFORMANCE_REPORT/";
-//  This path for on-prem:
-	public static final String LZ_PATH = "hdfs://splhdpmp01.graybar.com/data_LZ/Digital_Business/API_Integration/Google_AdWords/CLICK_PERFORMANCE_REPORT/";
+//  Example path for Github::
+	public static final String LZ_PATH = "hdfs://myserver.com/data_LZ/Digital_Business/API_Integration/Google_AdWords/CLICK_PERFORMANCE_REPORT/";
 	
 	public static void main(String[] args) throws Exception {
 		ArrayList<String> CustomerIDList = new ArrayList<String>(); 

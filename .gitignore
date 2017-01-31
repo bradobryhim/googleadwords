@@ -1,0 +1,6 @@
+/bin/
+/target/
+/logtesting/
+/report.log
+/request.log
+/soap.log
